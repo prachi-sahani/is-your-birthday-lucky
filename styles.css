@@ -84,3 +84,21 @@ button{
 .error-message{
     color: red;
 }
+
+.privacy-modal{
+    box-shadow: 5px 5px 5px grey;
+    background-color: #991B1B;
+    color: white;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.close-button{
+    text-align: right;
+    font-size: 0.75rem;
+    cursor: pointer;
+    display: inline;
+    padding:  0 0 1rem 2rem;
+
+}

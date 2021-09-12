@@ -1,8 +1,14 @@
 var birthDate = document.querySelector('#birth-date');
-var luckyNumber = document.querySelector('#lucky-number')
+var luckyNumber = document.querySelector('#lucky-number');
 var btnCheck = document.querySelector('#btn-check');
-var successMessage = document.querySelector('.success-message')
-var error = document.querySelector('.error-message')
+var successMessage = document.querySelector('.success-message');
+var error = document.querySelector('.error-message');
+var closeButton = document.querySelector('.close-button');
+var privacyModal = document.querySelector('.privacy-modal')
+
+closeButton.addEventListener('click',()=>{
+    privacyModal.style.display='none';
+})
 
 btnCheck.addEventListener('click',getResult);
 
