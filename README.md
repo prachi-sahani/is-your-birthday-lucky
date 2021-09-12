@@ -1,2 +1,9 @@
-# is-your-birthday-lucky
- A fun app to check if your birthday is lucky. :D
+# **is-your-birthday-lucky**
+ This is a fun app to check if your birthday is lucky. 😀
+
+## **How it works?**
+1. User inputs his/her birth date and lucky number.
+2. Entered birth date is lucky if the sum of digits of their birth date is equal to the lucky number entered.
+
+
+
