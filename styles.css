@@ -51,7 +51,7 @@ button{
   padding-bottom: 0.5rem;
   padding-top: 0;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 5rem;
   /* height: 2.25rem; */
 }
 
@@ -74,4 +74,13 @@ button{
 .icon{
   height: 2rem;
   width: 2rem;
+}
+
+.success-message, .error-message{
+    font-size: larger;
+    margin: 1rem;
+}
+
+.error-message{
+    color: red;
 }
